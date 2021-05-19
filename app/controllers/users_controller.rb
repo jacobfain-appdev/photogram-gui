@@ -20,4 +20,8 @@ class UsersController < ApplicationController
     end
   end
 
+  def homepage
+    redirect_to("/users")
+  end
+
 end
